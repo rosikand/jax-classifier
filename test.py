@@ -15,4 +15,5 @@ print(shape)
 exp = experiments.SupervisedExp()
 
 exp.perform_init()
+exp.train(num_epochs=10)
 exp.debug()

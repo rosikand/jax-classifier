@@ -23,7 +23,8 @@ class MLP:
             Flatten,
             Dense(128), Relu,
             Dense(64), Relu,
-            Dense(3), Softmax,
+            Dense(3), 
+            # Softmax,
         )
         if key is None:
             self.key = random.PRNGKey(42)
