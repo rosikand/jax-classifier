@@ -25,7 +25,13 @@ class SupervisedExp:
         self.model.init_module(sample_shape)
         print("Model initialized successfully!")
 
-    
+    def train(self, num_epochs):
+        """
+        Updates self.model.params. 
+        """
+        pass 
+
+
     def debug(self):
         """
         Testing things by printing to the console. 
